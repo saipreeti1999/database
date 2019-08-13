@@ -1,0 +1,8 @@
+CREATE TABLE hospital(patient_info varchar(20),id int,firstname varchar(15),lastname varchar(15),age int,gender varchar(10),city varchar(30),phoneno int(10));
+INSERT into hospital VALUES('kidney stone',203,'priya','darshini',20,'F','chennai',108)
+ALTER TABLE hospital
+ADD email varchar(20);
+update hospital set email='priyapd@gmail.com'WHERE id = 203;
+alter TABLE hospital
+RENAME COLUMN patient_info to PID;
+SELECT*FROM hospital;

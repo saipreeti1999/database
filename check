@@ -1,0 +1,3 @@
+CREATE TABLE doctor( name varchae(20),id int,specilizition varchar(30),phoneno int(10),available_time char(4) CHECK(available_time in ('mor','noon','eve')))
+insert INTO doctor VALUES('vaithyanathan',234,'orthonolagist',101,'noon')
+SELECT*FROM doctor;

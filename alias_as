@@ -1,0 +1,9 @@
+SELECT pid,firstname,lastname,city
+FROM hospital
+SELECT pid as patient_id,firstname,lastname,city
+FROm hospital
+SELECT pid FROM hospital WHERE city='chennai'
+SELECT pid,firstname,lastname,city FROM hospital WHERE city is NOT 'kerala';
+SELECT pid,firstname,lastname,city FROM hospital WHERE city  NOT LIKE'kolkata';
+SELECT count(gender) from hospital
+where gender = 'F'

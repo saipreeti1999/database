@@ -7,3 +7,7 @@ SELECT pid,firstname,lastname,city FROM hospital WHERE city is NOT 'kerala';
 SELECT pid,firstname,lastname,city FROM hospital WHERE city  NOT LIKE'kolkata';
 SELECT count(gender) from hospital
 where gender = 'F'
+SELECT p1.pid,firstname,gender,consult_date
+from hospital p1
+JOIN consultation c1
+on p1.pid=c1.pid

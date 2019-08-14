@@ -4,5 +4,5 @@ ALTER TABLE hospital
 ADD email varchar(20);
 update hospital set email='priyapd@gmail.com'WHERE id = 203;
 alter TABLE hospital
-RENAME COLUMN patient_info to PID;
+RENAME COLUMN id to PID;
 SELECT*FROM hospital;

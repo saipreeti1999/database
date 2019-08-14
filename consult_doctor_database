@@ -1,0 +1,3 @@
+CREATE table consultation( pid int, fees int ,health varchar(20),consult_date date ,CONSTRAINT PFK FOREIGN KEY(pid) REFERENCES hospital(pid));
+INSERT into consultation values(206,500,'leg sprain',date());
+SELECT*FROM consultation;

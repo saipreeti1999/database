@@ -5,4 +5,8 @@ ADD email varchar(20);
 update hospital set email='priyapd@gmail.com'WHERE id = 203;
 alter TABLE hospital
 RENAME COLUMN id to PID;
+INSERT into hospital VALUES('fewer',204,'sheeja','sterlin',20,'F','chennai',2345698383,'sheeja123@gmail.com')
+INSERT into hospital VALUES('not well',205,'bavadharini','bava',20,'F','chennai',2234567853,'bava233@gmail.com')
+INSERT into hospital VALUES('leg sprain',206,'mansy','p',20,'F','chennai',2344874098,'mansy234@gmail.com')
+INSERT into hospital VALUES('bone disloate',204,'mansy_msd','p',20,'F','chennai',2334567434,'man34@gmail.com')
 SELECT*FROM hospital;
